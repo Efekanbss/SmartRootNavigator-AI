@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  #map {
+    height: 500px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  #landmark-info {
+    margin-top: 20px;
+  }
+  
+  #landmark-list {
+    list-style-type: disc;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  #buttons {
+    margin: 15px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0077cc;
+    color: white;
+    transition: background 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  #buttons {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  

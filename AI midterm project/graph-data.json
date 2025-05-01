@@ -1,0 +1,615 @@
+{
+  "nodes": [
+    "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin",
+    "Aydın", "Balıkesir", "Bartın", "Batman", "Bayburt", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur",
+    "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Düzce", "Edirne", "Elazığ", "Erzincan",
+    "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkari", "Hatay", "Iğdır", "Isparta", "İstanbul",
+    "İzmir", "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu", "Kayseri", "Kırıkkale", "Kırklareli", "Kırşehir",
+    "Kilis", "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa", "Mardin", "Mersin", "Muğla", "Muş",
+    "Nevşehir", "Niğde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun", "Şanlıurfa", "Siirt", "Sinop",
+    "Sivas", "Şırnak", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Uşak", "Van", "Yalova", "Yozgat",
+    "Zonguldak"
+  ],
+  "coordinates": {
+    "Adana": [37.0, 35.3213],
+    "Adıyaman": [37.7648, 38.2786],
+    "Afyonkarahisar": [38.7638, 30.5403],
+    "Ağrı": [39.7191, 43.0503],
+    "Aksaray": [38.3687, 34.0370],
+    "Amasya": [40.6530, 35.8330],
+    "Ankara": [39.9208, 32.8541],
+    "Antalya": [36.8969, 30.7133],
+    "Ardahan": [41.1105, 42.7022],
+    "Artvin": [41.1828, 41.8183],
+    "Aydın": [37.8560, 27.8416],
+    "Balıkesir": [39.6484, 27.8826],
+    "Bartın": [41.6344, 32.3375],
+    "Batman": [37.8812, 41.1351],
+    "Bayburt": [40.2552, 40.2249],
+    "Bilecik": [40.1429, 29.9793],
+    "Bingöl": [38.8853, 40.4986],
+    "Bitlis": [38.4000, 42.1088],
+    "Bolu": [40.7320, 31.6082],
+    "Burdur": [37.7189, 30.2813],
+    "Bursa": [40.1826, 29.0669],
+    "Çanakkale": [40.1467, 26.4086],
+    "Çankırı": [40.6000, 33.6167],
+    "Çorum": [40.5506, 34.9556],
+    "Denizli": [37.7765, 29.0864],
+    "Diyarbakır": [37.9100, 40.2300],
+    "Düzce": [40.8438, 31.1565],
+    "Edirne": [41.6771, 26.5557],
+    "Elazığ": [38.6810, 39.2264],
+    "Erzincan": [39.7500, 39.5000],
+    "Erzurum": [39.9000, 41.2700],
+    "Eskişehir": [39.7767, 30.5206],
+    "Gaziantep": [37.0662, 37.3833],
+    "Giresun": [40.9128, 38.3895],
+    "Gümüşhane": [40.4600, 39.4817],
+    "Hakkari": [37.5833, 43.7333],
+    "Hatay": [36.4018, 36.3498],
+    "Iğdır": [39.9167, 44.0333],
+    "Isparta": [37.7648, 30.5566],
+    "İstanbul": [41.0082, 28.9784],
+    "İzmir": [38.4192, 27.1287],
+    "Kahramanmaraş": [37.5753, 36.9228],
+    "Karabük": [41.2061, 32.6204],
+    "Karaman": [37.1759, 33.2287],
+    "Kars": [40.5927, 43.0778],
+    "Kastamonu": [41.3887, 33.7827],
+    "Kayseri": [38.7316, 35.4787],
+    "Kırıkkale": [39.8468, 33.5153],
+    "Kırklareli": [41.7333, 27.2167],
+    "Kırşehir": [39.1425, 34.1709],
+    "Kilis": [36.7184, 37.1212],
+    "Kocaeli": [40.8533, 29.8815],
+    "Konya": [37.8667, 32.4833],
+    "Kütahya": [39.4167, 29.9833],
+    "Malatya": [38.3552, 38.3095],
+    "Manisa": [38.6191, 27.4289],
+    "Mardin": [37.3122, 40.7356],
+    "Mersin": [36.8000, 34.6333],
+    "Muğla": [37.2153, 28.3636],
+    "Muş": [38.7333, 41.4911],
+    "Nevşehir": [38.6264, 34.7139],
+    "Niğde": [37.9667, 34.6833],
+    "Ordu": [40.9833, 37.8833],
+    "Osmaniye": [37.0742, 36.2478],
+    "Rize": [41.0201, 40.5234],
+    "Sakarya": [40.6939, 30.4358],
+    "Samsun": [41.2867, 36.3300],
+    "Şanlıurfa": [37.1500, 38.8000],
+    "Siirt": [37.9333, 41.9500],
+    "Sinop": [42.0231, 35.1531],
+    "Sivas": [39.7500, 37.0167],
+    "Şırnak": [37.5167, 42.4500],
+    "Tekirdağ": [40.9833, 27.5167],
+    "Tokat": [40.3167, 36.5500],
+    "Trabzon": [41.0000, 39.7333],
+    "Tunceli": [39.1000, 39.5500],
+    "Uşak": [38.6833, 29.4000],
+    "Van": [38.4942, 43.3800],
+    "Yalova": [40.6500, 29.2667],
+    "Yozgat": [39.8200, 34.8044],
+    "Zonguldak": [41.4564, 31.7987]
+  },
+  "edges": {
+    "Adana": [
+      {"node": "Mersin", "weight": 70},
+      {"node": "Niğde", "weight": 200},
+      {"node": "Kayseri", "weight": 330},
+      {"node": "Kahramanmaraş", "weight": 180},
+      {"node": "Osmaniye", "weight": 90},
+      {"node": "Hatay", "weight": 190}
+    ],
+    "Adıyaman": [
+      {"node": "Malatya", "weight": 110},
+      {"node": "Diyarbakır", "weight": 200},
+      {"node": "Şanlıurfa", "weight": 110},
+      {"node": "Gaziantep", "weight": 110},
+      {"node": "Kahramanmaraş", "weight": 160}
+    ],
+    "Afyonkarahisar": [
+      {"node": "Kütahya", "weight": 100},
+      {"node": "Uşak", "weight": 115},
+      {"node": "Denizli", "weight": 180},
+      {"node": "Burdur", "weight": 170},
+      {"node": "Isparta", "weight": 150},
+      {"node": "Eskişehir", "weight": 150}
+    ],
+    "Ağrı": [
+      {"node": "Erzurum", "weight": 250},
+      {"node": "Kars", "weight": 220},
+      {"node": "Iğdır", "weight": 140},
+      {"node": "Muş", "weight": 210},
+      {"node": "Van", "weight": 290}
+    ],
+    "Aksaray": [
+      {"node": "Ankara", "weight": 225},
+      {"node": "Konya", "weight": 150},
+      {"node": "Niğde", "weight": 130},
+      {"node": "Nevşehir", "weight": 80},
+      {"node": "Kırşehir", "weight": 110}
+    ],
+    "Amasya": [
+      {"node": "Samsun", "weight": 130},
+      {"node": "Çorum", "weight": 90},
+      {"node": "Tokat", "weight": 110},
+      {"node": "Yozgat", "weight": 180}
+    ],
+    "Ankara": [
+      {"node": "Kırıkkale", "weight": 80},
+      {"node": "Kırşehir", "weight": 180},
+      {"node": "Aksaray", "weight": 225},
+      {"node": "Konya", "weight": 260},
+      {"node": "Eskişehir", "weight": 235},
+      {"node": "Bolu", "weight": 190},
+      {"node": "Çankırı", "weight": 130},
+      {"node": "Kütahya", "weight": 300}
+    ],
+    "Antalya": [
+      {"node": "Isparta", "weight": 130},
+      {"node": "Burdur", "weight": 120},
+      {"node": "Muğla", "weight": 310},
+      {"node": "Konya", "weight": 310},
+      {"node": "Mersin", "weight": 450}
+    ],
+    "Ardahan": [
+      {"node": "Kars", "weight": 90},
+      {"node": "Erzurum", "weight": 190},
+      {"node": "Artvin", "weight": 170}
+    ],
+    "Artvin": [
+      {"node": "Erzurum", "weight": 170},
+      {"node": "Rize", "weight": 130},
+      {"node": "Ardahan", "weight": 170}
+    ],
+    "Aydın": [
+      {"node": "İzmir", "weight": 110},
+      {"node": "Denizli", "weight": 100},
+      {"node": "Muğla", "weight": 160},
+      {"node": "Manisa", "weight": 150}
+    ],
+    "Balıkesir": [
+      {"node": "İzmir", "weight": 170},
+      {"node": "Manisa", "weight": 150},
+      {"node": "Çanakkale", "weight": 150},
+      {"node": "Bursa", "weight": 155},
+      {"node": "Kütahya", "weight": 210}
+    ],
+    "Bartın": [
+      {"node": "Zonguldak", "weight": 60},
+      {"node": "Karabük", "weight": 100},
+      {"node": "Kastamonu", "weight": 120}
+    ],
+    "Batman": [
+      {"node": "Diyarbakır", "weight": 100},
+      {"node": "Siirt", "weight": 70},
+      {"node": "Bitlis", "weight": 120},
+      {"node": "Muş", "weight": 150}
+    ],
+    "Bayburt": [
+      {"node": "Erzurum", "weight": 130},
+      {"node": "Gümüşhane", "weight": 80},
+      {"node": "Trabzon", "weight": 130},
+      {"node": "Rize", "weight": 180}
+    ],
+    "Bilecik": [
+      {"node": "Bursa", "weight": 95},
+      {"node": "Eskişehir", "weight": 75},
+      {"node": "Kütahya", "weight": 120},
+      {"node": "Sakarya", "weight": 90}
+    ],
+    "Bingöl": [
+      {"node": "Diyarbakır", "weight": 180},
+      {"node": "Muş", "weight": 110},
+      {"node": "Erzurum", "weight": 180},
+      {"node": "Erzincan", "weight": 160},
+      {"node": "Tunceli", "weight": 140}
+    ],
+    "Bitlis": [
+      {"node": "Van", "weight": 170},
+      {"node": "Siirt", "weight": 60},
+      {"node": "Batman", "weight": 120},
+      {"node": "Muş", "weight": 90}
+    ],
+    "Bolu": [
+      {"node": "Ankara", "weight": 190},
+      {"node": "Düzce", "weight": 130},
+      {"node": "Zonguldak", "weight": 160},
+      {"node": "Karabük", "weight": 180},
+      {"node": "Çankırı", "weight": 140},
+      {"node": "Eskişehir", "weight": 210}
+    ],
+    "Burdur": [
+      {"node": "Antalya", "weight": 120},
+      {"node": "Isparta", "weight": 60},
+      {"node": "Afyonkarahisar", "weight": 170},
+      {"node": "Denizli", "weight": 150},
+      {"node": "Muğla", "weight": 220}
+    ],
+    "Bursa": [
+      {"node": "Kocaeli", "weight": 150},
+      {"node": "Bilecik", "weight": 95},
+      {"node": "Balıkesir", "weight": 155},
+      {"node": "Kütahya", "weight": 180},
+      {"node": "Eskişehir", "weight": 150},
+      {"node": "Yalova", "weight": 75}
+    ],
+    "Çanakkale": [
+      {"node": "Balıkesir", "weight": 150},
+      {"node": "Tekirdağ", "weight": 190},
+      {"node": "Edirne", "weight": 210}
+    ],
+    "Çankırı": [
+      {"node": "Ankara", "weight": 130},
+      {"node": "Kırıkkale", "weight": 90},
+      {"node": "Kastamonu", "weight": 110},
+      {"node": "Çorum", "weight": 120},
+      {"node": "Bolu", "weight": 140}
+    ],
+    "Çorum": [
+      {"node": "Amasya", "weight": 90},
+      {"node": "Samsun", "weight": 170},
+      {"node": "Tokat", "weight": 180},
+      {"node": "Yozgat", "weight": 110},
+      {"node": "Kırıkkale", "weight": 120},
+      {"node": "Çankırı", "weight": 120}
+    ],
+    "Denizli": [
+      {"node": "Aydın", "weight": 100},
+      {"node": "Muğla", "weight": 150},
+      {"node": "Burdur", "weight": 150},
+      {"node": "Afyonkarahisar", "weight": 180},
+      {"node": "Uşak", "weight": 140}
+    ],
+    "Diyarbakır": [
+      {"node": "Mardin", "weight": 100},
+      {"node": "Batman", "weight": 100},
+      {"node": "Bingöl", "weight": 180},
+      {"node": "Şanlıurfa", "weight": 180},
+      {"node": "Muş", "weight": 210},
+      {"node": "Malatya", "weight": 250},
+      {"node": "Adıyaman", "weight": 200}
+    ],
+    "Düzce": [
+      {"node": "Bolu", "weight": 130},
+      {"node": "Sakarya", "weight": 100},
+      {"node": "Zonguldak", "weight": 90}
+    ],
+    "Edirne": [
+      {"node": "Tekirdağ", "weight": 170},
+      {"node": "Kırklareli", "weight": 120},
+      {"node": "Çanakkale", "weight": 210}
+    ],
+    "Elazığ": [
+      {"node": "Malatya", "weight": 100},
+      {"node": "Bingöl", "weight": 140},
+      {"node": "Tunceli", "weight": 120},
+      {"node": "Diyarbakır", "weight": 200},
+      {"node": "Erzincan", "weight": 160}
+    ],
+    "Erzincan": [
+      {"node": "Erzurum", "weight": 190},
+      {"node": "Tunceli", "weight": 150},
+      {"node": "Gümüşhane", "weight": 130},
+      {"node": "Bayburt", "weight": 100},
+      {"node": "Bingöl", "weight": 160},
+      {"node": "Elazığ", "weight": 160},
+      {"node": "Sivas", "weight": 250}
+    ],
+    "Erzurum": [
+      {"node": "Erzincan", "weight": 190},
+      {"node": "Bayburt", "weight": 130},
+      {"node": "Artvin", "weight": 170},
+      {"node": "Kars", "weight": 205},
+      {"node": "Ağrı", "weight": 250},
+      {"node": "Muş", "weight": 230},
+      {"node": "Bingöl", "weight": 180},
+      {"node": "Ardahan", "weight": 190}
+    ],
+    "Eskişehir": [
+      {"node": "Ankara", "weight": 235},
+      {"node": "Kütahya", "weight": 80},
+      {"node": "Bilecik", "weight": 75},
+      {"node": "Afyonkarahisar", "weight": 150},
+      {"node": "Bursa", "weight": 150}
+    ],
+    "Gaziantep": [
+      {"node": "Şanlıurfa", "weight": 145},
+      {"node": "Kilis", "weight": 60},
+      {"node": "Adıyaman", "weight": 110},
+      {"node": "Kahramanmaraş", "weight": 120},
+      {"node": "Osmaniye", "weight": 110},
+      {"node": "Hatay", "weight": 220}
+    ],
+    "Giresun": [
+      {"node": "Ordu", "weight": 70},
+      {"node": "Trabzon", "weight": 160},
+      {"node": "Gümüşhane", "weight": 130},
+      {"node": "Sivas", "weight": 240},
+      {"node": "Erzincan", "weight": 200}
+    ],
+    "Gümüşhane": [
+      {"node": "Trabzon", "weight": 110},
+      {"node": "Bayburt", "weight": 80},
+      {"node": "Erzincan", "weight": 130},
+      {"node": "Giresun", "weight": 130}
+    ],
+    "Hakkari": [
+      {"node": "Van", "weight": 210},
+      {"node": "Şırnak", "weight": 180}
+    ],
+    "Hatay": [
+      {"node": "Adana", "weight": 190},
+      {"node": "Osmaniye", "weight": 120},
+      {"node": "Gaziantep", "weight": 220}
+    ],
+    "Iğdır": [
+      {"node": "Ağrı", "weight": 140},
+      {"node": "Kars", "weight": 120}
+    ],
+    "Isparta": [
+      {"node": "Antalya", "weight": 130},
+      {"node": "Burdur", "weight": 60},
+      {"node": "Afyonkarahisar", "weight": 150},
+      {"node": "Konya", "weight": 250}
+    ],
+    "İstanbul": [
+      {"node": "Kocaeli", "weight": 110},
+      {"node": "Tekirdağ", "weight": 140},
+      {"node": "Kırklareli", "weight": 200},
+      {"node": "Yalova", "weight": 75}
+    ],
+    "İzmir": [
+      {"node": "Aydın", "weight": 110},
+      {"node": "Manisa", "weight": 40},
+      {"node": "Balıkesir", "weight": 170}
+    ],
+    "Kahramanmaraş": [
+      {"node": "Gaziantep", "weight": 120},
+      {"node": "Adıyaman", "weight": 160},
+      {"node": "Malatya", "weight": 170},
+      {"node": "Adana", "weight": 180},
+      {"node": "Osmaniye", "weight": 80}
+    ],
+    "Karabük": [
+      {"node": "Bolu", "weight": 180},
+      {"node": "Kastamonu", "weight": 140},
+      {"node": "Bartın", "weight": 100},
+      {"node": "Zonguldak", "weight": 80}
+    ],
+    "Karaman": [
+      {"node": "Konya", "weight": 170},
+      {"node": "Mersin", "weight": 230},
+      {"node": "Antalya", "weight": 320}
+    ],
+    "Kars": [
+      {"node": "Erzurum", "weight": 205},
+      {"node": "Ağrı", "weight": 220},
+      {"node": "Iğdır", "weight": 120},
+      {"node": "Ardahan", "weight": 90}
+    ],
+    "Kastamonu": [
+      {"node": "Çankırı", "weight": 110},
+      {"node": "Karabük", "weight": 140},
+      {"node": "Bartın", "weight": 120},
+      {"node": "Sinop", "weight": 130},
+      {"node": "Çorum", "weight": 190}
+    ],
+    "Kayseri": [
+      {"node": "Ankara", "weight": 320},
+      {"node": "Niğde", "weight": 120},
+      {"node": "Adana", "weight": 330},
+      {"node": "Kahramanmaraş", "weight": 280},
+      {"node": "Sivas", "weight": 180},
+      {"node": "Nevşehir", "weight": 80}
+    ],
+    "Kırıkkale": [
+      {"node": "Ankara", "weight": 80},
+      {"node": "Çorum", "weight": 120},
+      {"node": "Yozgat", "weight": 110},
+      {"node": "Kırşehir", "weight": 100},
+      {"node": "Çankırı", "weight": 90}
+    ],
+    "Kırklareli": [
+      {"node": "Tekirdağ", "weight": 90},
+      {"node": "Edirne", "weight": 120},
+      {"node": "İstanbul", "weight": 200}
+    ],
+    "Kırşehir": [
+      {"node": "Ankara", "weight": 180},
+      {"node": "Nevşehir", "weight": 60},
+      {"node": "Aksaray", "weight": 110},
+      {"node": "Yozgat", "weight": 100},
+      {"node": "Kırıkkale", "weight": 100}
+    ],
+    "Kilis": [
+      {"node": "Gaziantep", "weight": 60},
+      {"node": "Şanlıurfa", "weight": 150}
+    ],
+    "Kocaeli": [
+      {"node": "İstanbul", "weight": 110},
+      {"node": "Yalova", "weight": 70},
+      {"node": "Bursa", "weight": 150},
+      {"node": "Sakarya", "weight": 50}
+    ],
+    "Konya": [
+      {"node": "Ankara", "weight": 260},
+      {"node": "Aksaray", "weight": 150},
+      {"node": "Niğde", "weight": 200},
+      {"node": "Karaman", "weight": 170},
+      {"node": "Antalya", "weight": 310},
+      {"node": "Isparta", "weight": 250},
+      {"node": "Afyonkarahisar", "weight": 230},
+      {"node": "Nevşehir", "weight": 180}
+    ],
+    "Kütahya": [
+      {"node": "Eskişehir", "weight": 80},
+      {"node": "Afyonkarahisar", "weight": 100},
+      {"node": "Uşak", "weight": 90},
+      {"node": "Manisa", "weight": 230},
+      {"node": "Balıkesir", "weight": 210},
+      {"node": "Bursa", "weight": 180},
+      {"node": "Bilecik", "weight": 120}
+    ],
+    "Malatya": [
+      {"node": "Elazığ", "weight": 100},
+      {"node": "Diyarbakır", "weight": 250},
+      {"node": "Adıyaman", "weight": 110},
+      {"node": "Kahramanmaraş", "weight": 170},
+      {"node": "Sivas", "weight": 240},
+      {"node": "Erzincan", "weight": 200}
+    ],
+    "Manisa": [
+      {"node": "İzmir", "weight": 40},
+      {"node": "Balıkesir", "weight": 150},
+      {"node": "Kütahya", "weight": 230},
+      {"node": "Uşak", "weight": 160},
+      {"node": "Aydın", "weight": 150}
+    ],
+    "Mardin": [
+      {"node": "Diyarbakır", "weight": 100},
+      {"node": "Şanlıurfa", "weight": 160},
+      {"node": "Şırnak", "weight": 90},
+      {"node": "Batman", "weight": 150}
+    ],
+    "Mersin": [
+      {"node": "Adana", "weight": 70},
+      {"node": "Niğde", "weight": 170},
+      {"node": "Karaman", "weight": 230},
+      {"node": "Antalya", "weight": 450},
+      {"node": "Konya", "weight": 350}
+    ],
+    "Muğla": [
+      {"node": "Denizli", "weight": 150},
+      {"node": "Aydın", "weight": 160},
+      {"node": "Antalya", "weight": 310},
+      {"node": "Burdur", "weight": 220}
+    ],
+    "Muş": [
+      {"node": "Bitlis", "weight": 90},
+      {"node": "Bingöl", "weight": 110},
+      {"node": "Diyarbakır", "weight": 210},
+      {"node": "Batman", "weight": 150},
+      {"node": "Erzurum", "weight": 230},
+      {"node": "Ağrı", "weight": 210},
+      {"node": "Van", "weight": 180}
+    ],
+    "Nevşehir": [
+      {"node": "Kayseri", "weight": 80},
+      {"node": "Aksaray", "weight": 80},
+      {"node": "Niğde", "weight": 90},
+      {"node": "Kırşehir", "weight": 60},
+      {"node": "Konya", "weight": 180}
+    ],
+    "Niğde": [
+      {"node": "Adana", "weight": 200},
+      {"node": "Kayseri", "weight": 120},
+      {"node": "Nevşehir", "weight": 90},
+      {"node": "Aksaray", "weight": 130},
+      {"node": "Mersin", "weight": 170}
+    ],
+    "Ordu": [
+      {"node": "Samsun", "weight": 160},
+      {"node": "Giresun", "weight": 70},
+      {"node": "Sivas", "weight": 250},
+      {"node": "Tokat", "weight": 180}
+    ],
+    "Osmaniye": [
+      {"node": "Adana", "weight": 90},
+      {"node": "Kahramanmaraş", "weight": 80},
+      {"node": "Gaziantep", "weight": 110},
+      {"node": "Hatay", "weight": 120}
+    ],
+    "Rize": [
+      {"node": "Trabzon", "weight": 70},
+      {"node": "Artvin", "weight": 130},
+      {"node": "Erzurum", "weight": 220},
+      {"node": "Bayburt", "weight": 180}
+    ],
+    "Sakarya": [
+      {"node": "Kocaeli", "weight": 50},
+      {"node": "Bilecik", "weight": 90},
+      {"node": "Düzce", "weight": 100},
+      {"node": "Bolu", "weight": 110}
+    ],
+    "Samsun": [
+      {"node": "Amasya", "weight": 130},
+      {"node": "Çorum", "weight": 170},
+      {"node": "Ordu", "weight": 160},
+      {"node": "Tokat", "weight": 150},
+      {"node": "Sinop", "weight": 170}
+    ],
+    "Şanlıurfa": [
+      {"node": "Gaziantep", "weight": 145},
+      {"node": "Adıyaman", "weight": 110},
+      {"node": "Diyarbakır", "weight": 180},
+      {"node": "Mardin", "weight": 160},
+      {"node": "Kilis", "weight": 150}
+    ],
+    "Siirt": [
+      {"node": "Bitlis", "weight": 60},
+      {"node": "Batman", "weight": 70},
+      {"node": "Şırnak", "weight": 110},
+      {"node": "Van", "weight": 200}
+    ],
+    "Sinop": [
+      {"node": "Samsun", "weight": 170},
+      {"node": "Kastamonu", "weight": 130},
+      {"node": "Çorum", "weight": 220}
+    ],
+    "Sivas": [
+      {"node": "Tokat", "weight": 110},
+      {"node": "Yozgat", "weight": 180},
+      {"node": "Kayseri", "weight": 180},
+      {"node": "Malatya", "weight": 240},
+      {"node": "Erzincan", "weight": 250},
+      {"node": "Giresun", "weight": 240},
+      {"node": "Ordu", "weight": 250}
+    ],
+    "Şırnak": [
+      {"node": "Mardin", "weight": 90},
+      {"node": "Siirt", "weight": 110},
+      {"node": "Hakkari", "weight": 180}
+    ],
+    "Tekirdağ": [
+      {"node": "İstanbul", "weight": 140},
+      {"node": "Kırklareli", "weight": 90},
+      {"node": "Edirne", "weight": 170},
+      {"node": "Çanakkale", "weight": 190}
+    ],
+    "Tokat": [
+      {"node": "Sivas", "weight": 110},
+      {"node": "Amasya", "weight": 110},
+      {"node": "Ordu", "weight": 180},
+      {"node": "Samsun", "weight": 150},
+      {"node": "Çorum", "weight": 180}
+    ],
+    "Trabzon": [
+      {"node": "Rize", "weight": 70},
+      {"node": "Giresun", "weight": 160},
+      {"node": "Gümüşhane", "weight": 110},
+      {"node": "Bayburt", "weight": 130},
+      {"node": "Erzurum", "weight": 240}
+    ],
+    "Tunceli": [
+      {"node": "Elazığ", "weight": 120},
+      {"node": "Bingöl", "weight": 140},
+      {"node": "Erzincan", "weight": 150}
+    ],
+    "Uşak": [
+      {"node": "Kütahya", "weight": 90},
+      {"node": "Manisa", "weight": 160},
+      {"node": "Denizli", "weight": 140},
+      {"node": "Afyonkarahisar", "weight": 115}
+    ],
+    "Van": [
+      {"node": "Bitlis", "weight": 170},
+      {"node": "Hakkari", "weight": 210},
+      {"node": "Siirt", "weight": 200},
+      {"node": "Ağrı", "weight": 290},
+      {"node": "Muş", "weight": 180}
+    ]
+  }
+}
