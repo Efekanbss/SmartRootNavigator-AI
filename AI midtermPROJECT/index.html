@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Route Navigator</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Route Navigator</h1>
+        <div class="controls">
+            <div>
+                <strong>Start Node:</strong> <span id="start-node">None</span> |
+                <strong>End Node:</strong> <span id="end-node">None</span>
+            </div>
+            <div>
+                <strong>Distance:</strong> <span id="distance">0</span> km |
+                <strong>Time:</strong> <span id="time">0</span> hours
+            </div>
+            <div id="path-nodes"><strong>Path:</strong></div>
+            <button onclick="resetSelection()">Reset Selection</button>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
